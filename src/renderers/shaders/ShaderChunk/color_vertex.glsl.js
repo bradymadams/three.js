@@ -1,7 +1,15 @@
 export default /* glsl */`
 #ifdef USE_COLOR
 
-	vColor.xyz = color.xyz;
+	#ifdef USE_COLOR_HSL
+
+		vColor = rgb2hsl(color);
+	
+	#else
+	
+		vColor.xyz = color.xyz;
+
+	#endif
 
 #endif
 `;

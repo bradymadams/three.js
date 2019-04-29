@@ -233,7 +233,7 @@ export class Material extends EventDispatcher {
   uuid: string;
 
   /**
-   * Defines whether vertex coloring is used. Default is THREE.NoColors. Other options are THREE.VertexColors and THREE.FaceColors.
+   * Defines whether vertex coloring is used. Default is THREE.NoColors. Other options are THREE.VertexColors, THREE.FaceColors, and THREE.VertexColorsHSL.
    */
   vertexColors: Colors;
 

@@ -17,6 +17,7 @@ export var SmoothShading = 2;
 export var NoColors = 0;
 export var FaceColors = 1;
 export var VertexColors = 2;
+export var VertexColorsHSL = 3;
 export var NoBlending = 0;
 export var NormalBlending = 1;
 export var AdditiveBlending = 2;

@@ -25,7 +25,7 @@ function Material() {
 	this.side = FrontSide;
 	this.flatShading = false;
 	this.vertexTangents = false;
-	this.vertexColors = NoColors; // THREE.NoColors, THREE.VertexColors, THREE.FaceColors
+	this.vertexColors = NoColors; // THREE.NoColors, THREE.VertexColors, THREE.FaceColors, THREE.VertexColorsHSL
 
 	this.opacity = 1;
 	this.transparent = false;
